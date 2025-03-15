@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
@@ -29,6 +31,17 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    color: #d9534f;
+    transition: color 0.3s ease;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .intro, .content {
     padding: 20px;
     text-align: center;
@@ -50,6 +63,6 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
 }
